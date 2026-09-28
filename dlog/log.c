@@ -4,7 +4,7 @@ void dlog(int Log_Level, const char *msg, ...)
 {
   const char *level_str[] = { "TRACE", "INFO", "DEBUG","WARNING", "ERORR" };
   const char *level_colors[] = {
-    "\x1b[36m", "\x1b[32m", "\x1b[32m",  "\x1b[33m", "\x1b[31m"
+    "\x1b[36m", "\x1b[32m", "\x1b[35m",  "\x1b[33m", "\x1b[31m"
   };
   
   time_t t ;
